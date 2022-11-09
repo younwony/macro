@@ -19,13 +19,9 @@ public class NaverMacro {
      */
     private ChromeDriver driver;
 
-    private static String WEB_DRIVER_ID = "webdriver.chrome.driver"; // 드라이버 ID
-    private static String WEB_DRIVER_PATH = "E:\\workspace\\macro\\src\\main\\resources\\chromedriver.exe"; // 드라이버 경로
-
     private static final String NAVER_URL = "https://www.naver.com";
 
     public NaverMacro(String id, String pw, String targetUrl) {
-        System.setProperty(WEB_DRIVER_ID, WEB_DRIVER_PATH);
         this.id = id;
         this.pw = pw;
         this.targetUrl = targetUrl;
